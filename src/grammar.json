@@ -358,7 +358,7 @@
       "members": [
         {
           "type": "SYMBOL",
-          "name": "tuple_start"
+          "name": "_tuple_start"
         },
         {
           "type": "CHOICE",
@@ -374,15 +374,15 @@
         },
         {
           "type": "SYMBOL",
-          "name": "tuple_end"
+          "name": "_tuple_end"
         }
       ]
     },
-    "tuple_start": {
+    "_tuple_start": {
       "type": "STRING",
       "value": "["
     },
-    "tuple_end": {
+    "_tuple_end": {
       "type": "STRING",
       "value": "]"
     },
@@ -680,7 +680,7 @@
       "members": [
         {
           "type": "SYMBOL",
-          "name": "tuple_start"
+          "name": "_tuple_start"
         },
         {
           "type": "SYMBOL",
@@ -704,7 +704,7 @@
         },
         {
           "type": "SYMBOL",
-          "name": "tuple_end"
+          "name": "_tuple_end"
         }
       ]
     },
